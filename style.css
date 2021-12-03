@@ -1,0 +1,420 @@
+.home {
+  max-width: 1200px;
+  min-height: 1000px;
+  margin: 0 auto;
+}
+.home .heroimage {
+  height: 210px;
+  width: 100%;
+  background-image: url(../images/hero.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: space-evenly;
+  -ms-flex-pack: space-evenly;
+  justify-content: space-evenly;
+}
+.home .heroimage .herotext {
+  margin: 0 auto;
+  width: 700px;
+  height: 100px;
+  text-align: center;
+}
+.home .heroimage .herotext h1 {
+  font-size: 60px;
+  font-family: OpenSansL;
+  color: white;
+  margin: 0;
+}
+.home .heroimage .herotext h4 {
+  font-size: 16px;
+  font-family: OpenSansSB;
+  color: white;
+  margin: 0;
+}
+.home .sort-section {
+  min-height: 100px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+.home .sort-section .sortbutton-holder {
+  width: 80%;
+  min-height: 100px;
+  margin-top: 20px;
+}
+.home .sort-section .sortbutton-holder .sortbutton-small {
+  min-width: 100px;
+  height: 45px;
+  border: #222 solid 2px;
+  border-radius: 3px;
+  float: left;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  margin-left: 20px;
+  margin-top: 20px;
+  display: none;
+}
+.home .sort-section .sortbutton-holder .sortbutton-small p {
+  margin-top: 15px;
+  font-size: 20px;
+  font-family: OpenSansR;
+  padding-left: 10px;
+  padding-right: 10px;
+  color: #444;
+}
+.home .sort-section .sortbutton-holder .sortbutton-small .arrow {
+  width: 25px;
+  height: 12px;
+  background-image: url(../images/arrow.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-right: 10px;
+}
+.home .sort-section .sortbutton-holder .sortbutton-small:hover {
+  cursor: pointer;
+}
+.home .sort-section .sortbutton-holder .sortbutton {
+  min-width: 100px;
+  height: 50px;
+  border: #777 solid 2px;
+  border-radius: 3px;
+  float: left;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+.home .sort-section .sortbutton-holder .sortbutton p {
+  margin-top: 15px;
+  font-size: 14px;
+  font-family: OpenSansSB;
+  padding-left: 10px;
+  padding-right: 10px;
+  color: #999;
+}
+.home .sort-section .sortbutton-holder .sortbutton .arrow {
+  width: 25px;
+  height: 12px;
+  background-image: url(../images/arrow.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-right: 10px;
+}
+.home .sort-section .sortbutton-holder .sortbutton:hover {
+  cursor: pointer;
+  border: #222 solid 2px;
+}
+.home .sort-section .sortbutton-holder .sortbutton:hover .arrow {
+  width: 25px;
+  height: 12px;
+  background-image: url(../images/arrow2.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-right: 10px;
+}
+.home .sort-section .specialsort-holder {
+  width: 200px;
+  height: 50px;
+}
+.home .sort-section .specialsort-holder p {
+  font-size: 12px;
+  font-family: OpenSansL;
+  color: #333;
+  margin-bottom: 0;
+  padding-left: 10px;
+}
+.home .sort-section .specialsort-holder .popularity-holder {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: space-evenly;
+  -ms-flex-pack: space-evenly;
+  justify-content: space-evenly;
+}
+.home .sort-section .specialsort-holder .popularity-holder h4 {
+  font-size: 14px;
+  font-family: OpenSansSB;
+  color: #333;
+  margin-bottom: 0;
+}
+.home .sort-section .specialsort-holder .popularity-holder .arrow {
+  width: 25px;
+  height: 12px;
+  background-image: url(../images/arrow.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-right: 10px;
+}
+.home .sort-section .specialsort-holder .popularity-holder:hover {
+  cursor: pointer;
+}
+.home .sort-section .specialsort-holder .popularity-holder:hover .arrow {
+  width: 25px;
+  height: 12px;
+  background-image: url(../images/arrow2.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-right: 10px;
+}
+.home #product-section {
+  margin: 10px auto 30px auto;
+  max-width: 100%;
+  min-height: 1250px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+}
+.home #product-section .product-holder {
+  margin: 15px 10px;
+  position: relative;
+  max-width: 270px;
+  min-height: 600px;
+  -webkit-box-shadow: 0 8px 8px rgba(0, 0, 0, 0.16);
+  box-shadow: 0 8px 8px rgba(0, 0, 0, 0.16);
+  -webkit-transition: -webkit-transform 0.2s;
+  transition: -webkit-transform 0.2s;
+  transition: transform 0.2s;
+  transition: transform 0.2s, -webkit-transform 0.2s;
+}
+.home #product-section .product-holder .ribbon-holder {
+  width: 100%;
+  height: 25px;
+}
+.home #product-section .product-holder .product-image img {
+  max-width: 262px;
+  height: 210px;
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.home #product-section .product-holder .product-name {
+  padding: 10px 15px;
+}
+.home #product-section .product-holder .product-name h1 {
+  font-size: 16px;
+  font-family: OpenSansR;
+  color: #222;
+}
+.home #product-section .product-holder .product-price {
+  padding: 10px 15px;
+}
+.home #product-section .product-holder .product-price h2 {
+  font-size: 18px;
+  font-family: OpenSansL;
+  color: #444;
+}
+.home #product-section .product-holder .product-price h2 .small {
+  font-size: 12px;
+}
+.home #product-section .product-holder .freeshipping-holder {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  width: 160px;
+  height: 30px;
+  margin-left: 15px;
+}
+.home #product-section .product-holder .freeshipping-holder h4 {
+  font-size: 16px;
+  font-family: OpenSansSB;
+  color: #444;
+  margin-top: 14px;
+  padding: 5px;
+}
+.home #product-section .product-holder .product-button {
+  width: 90%;
+  height: 50px;
+  margin: 0 auto;
+  border: #ffc107 solid 2px;
+  position: absolute;
+  bottom: 10px;
+  left: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: space-evenly;
+  -ms-flex-pack: space-evenly;
+  justify-content: space-evenly;
+  display: none;
+}
+.home #product-section .product-holder .product-button h3 {
+  font-size: 16px;
+  font-family: OpenSansR;
+  margin-top: 15px;
+}
+.home #product-section .product-holder .product-button:hover {
+  border: #222 solid 2px;
+  cursor: pointer;
+}
+.home #product-section .product-holder:hover {
+  border: #222 solid 2px;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  /* IE 9 */
+  -webkit-transform: scale(1.5);
+  /* Safari 3-8 */
+  transform: scale(1.05);
+}
+.home #product-section .product-holder:hover .product-button {
+  width: 90%;
+  height: 50px;
+  margin: 0 auto;
+  border: #ffc107 solid 2px;
+  position: absolute;
+  bottom: 10px;
+  left: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: space-evenly;
+  -ms-flex-pack: space-evenly;
+  justify-content: space-evenly;
+}
+.home #product-section .product-holder:hover .product-button h3 {
+  font-size: 16px;
+  font-family: OpenSansR;
+  margin-top: 15px;
+}
+.home #product-section .product-holder:hover .product-button:hover {
+  border: #222 solid 2px;
+  cursor: pointer;
+}
+
+@media (max-width: 1000px) {
+  .home {
+    margin-top: -15px;
+  }
+  .home .heroimage .herotext h1 {
+    font-size: 30px;
+  }
+  .home .heroimage .herotext h4 {
+    font-size: 18px;
+  }
+  .home .sort-section {
+    height: 65px;
+  }
+  .home .sort-section .sortbutton-holder .sortbutton {
+    display: none;
+  }
+  .home .sort-section .sortbutton-holder .sortbutton-small {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .home .sort-section .specialsort-holder {
+    display: none;
+  }
+  .home #product-section {
+    width: 1000px;
+    min-height: 800px;
+    margin: 0 auto;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+  }
+  .home #product-section .product-holder {
+    max-width: 285px;
+    min-height: 555px;
+  }
+  .home #product-section .product-holder .product-button {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .home #product-section .product-holder:hover {
+    border: none;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    /* IE 9 */
+    -webkit-transform: scale(1.5);
+    /* Safari 3-8 */
+    transform: scale(1);
+  }
+  .home #product-section .product-holder:hover .product-button {
+    width: 90%;
+    height: 50px;
+    margin: 0 auto;
+    border: #ffc107 solid 2px;
+    position: absolute;
+    bottom: 10px;
+    left: 15px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: space-evenly;
+    -ms-flex-pack: space-evenly;
+    justify-content: space-evenly;
+  }
+  .home #product-section .product-holder:hover .product-button h3 {
+    font-size: 16px;
+    font-family: OpenSansR;
+    margin-top: 15px;
+  }
+  .home #product-section .product-holder:hover .product-button:hover {
+    border: #ffc107 solid 2px;
+    cursor: pointer;
+  }
+}
